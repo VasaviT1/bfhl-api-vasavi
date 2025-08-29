@@ -28,7 +28,6 @@ def process_data():
             else:
                 special_characters.append(item)
         
-        # Create concatenation string in reverse order with alternating caps
         concat_string = ""
         for i, char in enumerate(reversed(all_alphabets)):
             if i % 2 == 0:
